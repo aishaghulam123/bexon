@@ -1,0 +1,111 @@
+.bexon-hero {
+  background-color: #0b1a1f;
+  padding-top: 140px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  padding: 6px 18px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  color: #21b08a;
+}
+
+.hero-title {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 35px;
+}
+
+.btn-explore {
+  background-color: #21b08a;
+  color: #ffffff;
+  border: none;
+  padding: 14px 34px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-explore:hover {
+  background-color: #1a9474;
+  transform: translateY(-2px);
+}
+
+.arrow-icon {
+  background-color: #0b1a1f;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+/* Feature Highlights Bar */
+.hero-features-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1100px;
+  margin: 70px auto 0;
+  border-top: 1px dashed rgba(255, 255, 255, 0.15);
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+  padding: 20px 0;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.item-icon {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+/* Ticker Strip */
+.ticker-banner {
+  background-color: #21b08a;
+  color: #ffffff;
+  padding: 12px 0;
+  font-weight: 700;
+  font-size: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ticker-track {
+  display: inline-block;
+  animation: ticker 25s linear infinite;
+}
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
